@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <form>
+            <h1 class="nm">Registration form</h1>
+            <h2 class="name">Name</h2>
+            <input class="firstname" type="text" name="first_name"> <br>
+            <label class="firstlabel">first name</label>
+            <input class="lastname" type="text" name="last_name">
+            <label class="lastlabel">last name</label>
+
+
+            <h2 class="name">Address</h2>
+            <input class="company" type="text" name="company">
+
+            <h2 class="name">Email</h2>
+            <input class="email" type="text" name="email">
+
+            <h2 class="name">Phone</h2>
+            <input class="code" type="text" name="area_code">
+            <label class="area-code">Area code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+
+            <h2 class="name">Tarif</h2>
+            <select class="option" name="subject">
+                <option disabled="disabled" selected="selected">--Choose Option</option>
+                <option>Bronze</option>
+                <option>Silver</option>
+                <option>Gold</option>
+            </select>
+
+            <h2 id="student">Are you beginner?</h2>
+            <label class="radio">
+                <input class="radio-one"  type="radio" name="">
+                <span class="checkmark"></span>
+                Yes
+            </label>
+            <label class="radio">
+                <input class="radio-two" type="radio" name="">
+                <span class="checkmark"></span>
+                No
+            </label>
+
+            <button class="button" type="submit">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
